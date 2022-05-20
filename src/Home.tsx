@@ -354,7 +354,7 @@ const Home = (props: HomeProps) => {
         if (hours > 0) {
             label += hours + " hours "
         }
-        label += (minutes+1) + " minutes left to MINT."
+        label += (minutes+1) + " minutes left to MINT.";
         return (
             <div><h3>{label}</h3></div>
         );
@@ -377,8 +377,7 @@ const Home = (props: HomeProps) => {
             ? ("https://solscan.io/token/" + mintPublicKey + "?cluster=" + cluster)
             : ("https://solscan.io/token/" + mintPublicKey));
         throwConfetti();
-    };
-
+    }
     function throwConfetti(): void {
         confetti({
             particleCount: 400,
@@ -588,7 +587,7 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                            <h2>Mint a Ganjapreneur</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
