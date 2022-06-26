@@ -1,0 +1,28 @@
+{
+   "creators":[
+      {
+         "address":"3aYxtWiPuM1FWJndpv3iTwWbCKJ83zTGjGDRDdCr3oF3",
+         "share":0,
+         "verified":true
+      },
+      {
+         "address":"JBu2v3pxXQvPSZ6gC1S1BM1ZRZ19N6Z1UGCXvz5h7dCq",
+         "share":40,
+         "verified":false
+      },
+      {
+         "address":"BYexeXcgJRu82gH7r9FPnyy8XU26sdY8kpwzbmquUoK2",
+         "share":40,
+         "verified":false
+      },
+      {
+         "address":"2WqH8FWkEndssSZGEBdCkRGUw6Vn3C4yjFF5HBQAWttb",
+         "share":20,
+         "verified":false
+      }
+   ],
+   "name":"SOL Goblin ratZ #1936",
+   "seller_fee_basis_points":999,
+   "symbol":"SRatz",
+   "uri":"https://arweave.net/9LDyXeSix9x74zOOPkbmbzNPzxh96wHxjAPmoMCwhIU"
+}
